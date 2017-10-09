@@ -1,0 +1,343 @@
+author = "STS Dev Team";
+onLoadName = "Altis Life RPG v6.2";
+onLoadMission = "Join the community and provide feedback at sealteamsloth.com";
+loadScreen = "images\stslogo.jpg";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+disableChannels[]={0,1,2};
+enableDebugConsole = 1;
+respawnDialog = 0;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
+
+wreckLimit = 5;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 15;
+corpseRemovalMinTime = 630;
+corpseRemovalMaxTime = 720;
+
+#include "dialog\MasterHandler.h"
+#include "outlw_magRepack\MagRepack_config.hpp"
+#include "CfgRecipes.h"
+class CfgSTSMarkers
+{
+    #include "dialog\STS_cfg_markers.hpp"
+};
+
+class RscTitles
+{
+	#include "dialog\ui.hpp"
+	#include "dialog\progress.hpp"
+	#include "dialog\hud_nameTags.h"
+};
+
+class CfgFunctions
+{
+	#include "Functions.h"
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class PhoneRing
+	{
+		name = "PhoneRing";
+		sound[] = {"\sounds\phonering.ogg", 1, 1};
+		titles[] = {};
+	};
+	class PhoneDial
+	{
+		name = "PhoneDial";
+		sound[] = {"\sounds\phonedial.ogg", 1, 1};
+		titles[] = {};
+	};
+	class SirenLong
+	{
+		name = "SirenLong";
+		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class purchase
+	{
+		name = "purchase";
+		sound[] = {"\sounds\purchase.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class elechair
+	{
+		name = "elechair";
+		sound[] = {"\sounds\elechair.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class racebeep1
+	{
+		name = "racebeep1";
+		sound[] = {"\sounds\racebeep1.ogg", 1.0, 1};
+		titles[] = {};
+	};
+  class racebeep2
+    {
+		name = "racebeep2";
+		sound[] = {"\sounds\racebeep2.ogg", 1.0, 1};
+		titles[] = {};
+    };
+  class airplane
+    {
+		name = "airplane";
+		sound[] = {"\sounds\airplane.ogg", 1.0, 1};
+		titles[] = {};
+    };
+	
+	class seatbelt
+	{
+		name = "seatbelt";
+		sound[] = {"\sounds\seatbelt.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class pickaxe
+	{
+		name = "pickaxe";
+		sound[] = {"\sounds\pickaxe.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class CT_Win
+	{
+		name = "CT_Win";
+		sound[] = {"\sounds\CT_Win.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class burglar_alarm
+	{
+		name = "burglar_alarm";
+		sound[] = {"\sounds\burglar_alarm.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class bank_alarm
+	{
+		name = "bank_alarm";
+		sound[] = {"\sounds\bank_alarm.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class tazersound
+	{
+		name = "Tazersound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+	
+	class Flashbang
+	{
+		name = "flashbang";
+		sound[] = {"\sounds\flashbang.ogg", 0.25, 1};
+		titles[] = {};
+	};
+
+	class car_unlock
+	{
+		name="car_unlock";
+		sound[] = {"\sounds\car_unlock.ogg", 1.0, 1};
+		titles[] = {};
+	}
+
+	class handcuffs
+	{
+		name = "handcuffs";
+		sound[] = {"\sounds\handcuffs.ogg", 1.0, 1};
+		titles[] = {};
+	}
+	
+	class car_alarm
+	{
+		name = "car_alarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class zip_tie
+	{
+		name = "zip_tie";
+		sound[] = {"\sounds\zip_tie.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class knockout
+	{
+		name = "knockout";
+		sound[] = {"\sounds\knockout.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class shank
+	{
+		name = "shank";
+		sound[] = {"\sounds\shank_stab.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class car_lock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class sms
+	{
+		name = "sms";
+		sound[] = {"\sounds\sms.ogg", db-2, 1};
+		titles[] = {};
+	};
+	
+	class police_horn
+	{
+		name = "police_horn";
+		sound[] = {"\sounds\police_horn.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class medic_Siren
+	{
+		name = "medic_Siren";
+		sound[] = {"\sounds\medic_Siren.ogg", 1.0, 1};
+		titles[] = {};
+	};
+
+	class locked_door
+	{
+		name = "locked_door";
+		sound[] = {"\sounds\locked_door.ogg", 3.0, 1};
+		titles[] = {};
+	};
+};
+
+class CfgDebriefing
+{
+	class NotWhitelisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are not white-listed to use this slot";
+		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
+	class Blacklisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are blacklisted from cops";
+		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
+class CfgNotifications
+{
+	class MedicalRequestEmerg
+	{
+		title = "AMS Requested";
+		iconPicture = "a3\ui_f\data\map\MapControl\hospital_ca.paa";
+		description = "%1";
+		duration = 5;
+		priority = 7;
+	};
+	
+	class GovMessage
+	{
+		title = "Government Message";
+		iconPicture = "icons\govern.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+	
+	class DeliveryAssigned
+	{
+		title = "Delivery Job Accepted";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 10;
+		priority = 7;
+	};
+	
+	class DeliveryFailed
+	{
+		title = "Delivery Job Failed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+		description = "%1";
+		duration = 7;
+		priority = 7;
+	};
+	
+	class DeliverySucceeded
+	{
+		title = "Delivery Job Completed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+		description = "%1";
+		duration = 6;
+		priority = 6;
+	};
+	
+	class TextMessage
+	{
+		title = "Received A Text Message";
+		iconPicture = "icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class PoliceDispatch
+	{
+		title = "911 Dispatch Center";
+		iconPicture = "icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class AdminDispatch
+	{
+		title = "Admin Dispatch Center";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class AdminMessage
+	{
+		title = "Admin Message";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+	
+	class BountyUpdate
+	{
+		title = "Criminal Arrested";
+		iconPicture = "icons\police.paa";
+		description = "%1";
+		duration = 5;
+		priority = 7;
+	};
+};
