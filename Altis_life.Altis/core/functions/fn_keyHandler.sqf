@@ -139,7 +139,7 @@ switch (_code) do
 	/*Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)*/
 	case _interactionKey:
 	{
-		if(!life_action_inUse) then {
+		if(!life_action_inUse && isNil "surrender") then {
 			[] spawn 
 			{
 				private["_handle"];
