@@ -6,6 +6,7 @@
 	Main functionality for gathering.
 */
 
+
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 _rabbit = (nearestObjects[getPos player,["Rabbit_F"],3]) select 0;
 if(!isNil "_rabbit" && {(!alive _rabbit)}) exitWith {deleteVehicle _rabbit; [true,"rabbit",1] call life_fnc_handleInv; systemChat "You have gathered some rabbit meat"};

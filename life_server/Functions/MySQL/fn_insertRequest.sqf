@@ -10,7 +10,7 @@ private["_uid","_name","_side","_money","_bank","_licenses","_handler","_thread"
 _uid = param [0,"",[""]];
 _name = param [1,"",[""]];
 _money = 0;
-_bank = 75000;
+_bank = 16000;
 _returnToSender = param [2,ObjNull,[ObjNull]];
 
 if((_uid == "") OR (_name == "")) exitWith {systemChat "Bad UID or name";};

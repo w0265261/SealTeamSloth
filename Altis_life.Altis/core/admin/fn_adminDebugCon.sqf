@@ -5,7 +5,7 @@ Author: Kevin Webb
 Description: opens the debug console, mainly used on my testing server. Button is commented out in the live build.
 */
 if(__GETC__(style) < 3) exitWith {};
-life_charged = false;
+/*life_charged = false;
 [] spawn {
 	disableSerialization;
 	createDialog "STS_KBW_price_diag";
@@ -20,4 +20,4 @@ life_charged = false;
 		call _code;
 		life_charged = false;
 	};
-};
+};*/

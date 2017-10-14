@@ -67,7 +67,6 @@ if(_type == "bh") then
 		["cash","add",_price] call life_fnc_handlePaper;
 	};
 	if(!(player getVariable["approved",false])) exitWith {
-		hint "You are required to have a SGT/Admin's approval to buy this license. Apply at sealteamsloth.com, 'in character discussion' section, or to a SGT/Admin in ts3.sealteamsloth.com";
 		license_civ_bh = false;
 		["cash","add",_price] call life_fnc_handlePaper;
 	};

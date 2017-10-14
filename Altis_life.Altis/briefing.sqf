@@ -26,7 +26,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 		[
 			"Teamspeak",
 				"
-					Our Teamspeak server is located at ts3.sealteamsloth.com<br/><br/>
+					Our Teamspeak server is located at ts3.sealteamsloth.life<br/><br/>
 					
 					Usage of Teamspeak is required for all Police Officers and Medics.<br/>
 					It is also your best bet for contacting an admin if you have questions or are in need of assistance.<br/><br/>
@@ -37,7 +37,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 		[
 			"Website",
 				"
-					Our website is located at www.sealteamsloth.com<br/><br/>
+					Our website is located at www.sealteamsloth.life<br/><br/>
 					
 					All reporting and applications are done under the SLACKER heading in the top bar.<br/>
 					This includes applying to become a cop or medic, ban appeals, or reporting another player or cop if you feel their behaviour has breached rules or policies.<br/>
@@ -55,7 +55,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 					
 					You can also revive incapacitated players at a Hospital. It costs $100 to do so. Getting revived by a medic costs 1% of your total bank account but will not cost more than $1000.<br /><br />
 					
-					Complete death can be caused from bleeding out, respawning, not eating food, not drinking water, or getting lethal injected. It can also occur if you are caught in the blast of an exploding car, or hit by vehicle-mounted weapons. If you completely die, your bank account balance will be charged 0.5% of your total bank account for a 'cloning' fee, and you will keep your garage contents, and ownership of your houses. You will be prompted to spawn in a town and you will have lost all of your things on your character. Be sure you read the rules that take effect after your death at sealteamsloth.com.
+					Complete death can be caused from bleeding out, respawning, not eating food, not drinking water, or getting lethal injected. It can also occur if you are caught in the blast of an exploding car, or hit by vehicle-mounted weapons. If you completely die, your bank account balance will be charged 0.5% of your total bank account for a 'cloning' fee, and you will keep your garage contents, and ownership of your houses. You will be prompted to spawn in a town and you will have lost all of your things on your character. Be sure you read the rules that take effect after your death at sealteamsloth.life.
 				"
 		]
 	];
@@ -79,7 +79,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 		[
 			"Bounty Hunters",
 				"
-					To be a Bounty Hunter, you need admin approval. Go to the forums at sealteamsloth.com to submit your application.<br /><br />
+					To be a Bounty Hunter, you need admin approval. Go to the forums at sealteamsloth.life to submit your application.<br /><br />
 					
 					Bounty Hunters are civs that get money from capturing wanted people with a bounty of over $3,000. If a Bounty Hunter captures you with a bounty less than $3000 the bounty hunter can not turn you in for money. They must initiate RP to capture wanted civilians. It also gives access to unique gear.<br /><br />Bounty Hunter's license costs $7500.
 				"
@@ -383,7 +383,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 					
 					In real life, you can just whack someone over the head and take all their money. This is a video game and we are all here to have fun. There is also the possibility of trolls on the server and the admins need a way of picking the trolls out and the players need to know they are going to be robbed or talked to, etc. A simple 'Put your hands up. This is a robbery.' will suffice for RP initiation. It is encouraged to add your own spice to the robbery as we are here to have fun. Originality keeps things fresh.<br /><br />
 					
-					Please read the rules on the forums at sealteamsloth.com to fully understand RP initiation.
+					Please read the rules on the forums at sealteamsloth.life to fully understand RP initiation.
 				"
 		]
 	];
@@ -413,7 +413,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 				"
 					To forcefully sync your player data to the database, press Y to open your personal menu. At the bottom left there is a Sync Data button. It is a always a good idea to force sync your data before logging off. It is also a good practice to sync your data after any big purchase or when you are dealing with a significant money gain from a task.<br /><br />
 					
-					If any sync issues cause your belongings to be lost, file a compensation request on the forums at sealteamsloth.com. Please write down the time this occurred and, if you remember, the last time you logged off. Also write down your timezone. It is also sometimes necessary to give a backstory or a brief idea of what happened. <br /><br />
+					If any sync issues cause your belongings to be lost, file a compensation request on the forums at sealteamsloth.life. Please write down the time this occurred and, if you remember, the last time you logged off. Also write down your timezone. It is also sometimes necessary to give a backstory or a brief idea of what happened. <br /><br />
 					
 					The admins have to search through the logs by hand and any help that speeds up the process is beneficial to you and the admins.
 				"
@@ -611,7 +611,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 		[
 			"Full Rules", 
 				"
-				The full and most up to date list of rules is located on our website at sealteamsloth.com<br/>
+				The full and most up to date list of rules is located on our website at sealteamsloth.life<br/>
 				If any contradiction exists, the rules posted on our website supersede any elsewhere.<br/><br/>
 				"
 		]
@@ -977,7 +977,7 @@ player createDiarySubject ["ts3web","Teamspeak & Website"];
 		[
 			"Full Laws",
 				"
-				The full and most up to date list of laws is located on our website at sealteamsloth.com<br/>
+				The full and most up to date list of laws is located on our website at sealteamsloth.life<br/>
 				If any contradiction exists, the rights and laws posted on our website supersede any elsewhere.<br/><br/>
 				"
 		]

@@ -46,5 +46,5 @@ if(alive player) then
 	player setVariable ["Escorting",false,true];
 	
 	detach player;
-	hint "You've now been unrestrained, be sure to follow the rules or risk a ban from the server! You can read the rules at sealteamsloth.com";
+	hint "You've now been unrestrained, be sure to follow the rules or risk a ban from the server! You can read the rules at sealteamsloth.life";
 };

@@ -71,7 +71,7 @@ switch(_type) do
 		hintSilent format["You sent %1 a message: %2",_to,_msg];
 		ctrlShow[888896,true];
 		closeDialog 887890;
-		if(["comp",_msg] call BIS_fnc_inString) then { TitleText["It appears you are seeking compensation. You should file an adjustment request in the slacker at sealteamsloth.com","PLAIN"]; };
+		if(["comp",_msg] call BIS_fnc_inString) then { TitleText["It appears you are seeking compensation. You should file an adjustment request in the slacker at sealteamsloth.life","PLAIN"]; };
 	};
 	/*emsrequest*/
 	case 4:

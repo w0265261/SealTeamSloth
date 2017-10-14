@@ -1,6 +1,6 @@
 author = "STS Dev Team";
 onLoadName = "Altis Life RPG v6.2";
-onLoadMission = "Join the community and provide feedback at sealteamsloth.com";
+onLoadMission = "Join the community and provide feedback at sealteamsloth.life";
 loadScreen = "images\stslogo.jpg";
 joinUnassigned = 1;
 respawn = BASE;
